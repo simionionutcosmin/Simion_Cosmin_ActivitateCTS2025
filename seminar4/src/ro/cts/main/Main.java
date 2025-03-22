@@ -3,6 +3,7 @@ package ro.cts.main;
 import ro.cts.factory.SupaFactory;
 import ro.cts.factory.TipSupa;
 import ro.cts.model.Supa;
+import ro.cts.rezervare.Rezervare;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,8 +16,8 @@ public class Main {
         supaLegume.afiseazaDescriere();
         supaVita.afiseazaDescriere();
 
-
-
+        Rezervare rezervare=new Rezervare("John",5, 2,3,Boolean.TRUE);
+        System.out.println(rezervare.toString());
 
     }
 }
