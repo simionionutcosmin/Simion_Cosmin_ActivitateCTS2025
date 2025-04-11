@@ -12,7 +12,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        MedicamentFarmacie medicamentFarmacie = new MedicamentFarmacie("Medi", 50, true, "11.02.2029");
+        MedicamentFarmacie medicamentFarmacie = new MedicamentFarmacie("Medi", 50, true, "17.05.2028");
         vindeMedicamente(medicamentFarmacie);
         MedicamentSpital medicamentSpital = new MedicamentSpital("Medi2", 45);
         AdaptorMedicament adaptorMedicament = new AdaptorMedicament(medicamentSpital);
