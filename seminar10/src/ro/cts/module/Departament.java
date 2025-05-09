@@ -14,7 +14,7 @@ public class Departament extends StructuraAbs {
 
     @Override
     public void adaugaNod(StructuraAbs structuraAbs) {
-structuri.add(structuraAbs);
+        structuri.add(structuraAbs);
     }
 
     @Override
